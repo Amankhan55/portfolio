@@ -181,6 +181,29 @@ main {
     color: #333;
 }
 
+//------Mdi Icon class
+#mdiIcon {
+    align-items: center;
+    text-align: center;
+    color: set-text-color($primary-color);
+
+    i {
+        color: #04C2C9;
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 30px;
+        font-weight: 500;
+        color: $secondary-color;
+    }
+
+    .item {
+        background: lighten($primary-color, 10);
+        border-bottom: $secondary-color 3px solid; 
+    }
+}
+
 #main-footer {
     text-align: center;
     padding: 1rem;

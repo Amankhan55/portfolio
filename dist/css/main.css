@@ -223,6 +223,21 @@ main {
   background: #c4c4c4;
   color: #333; }
 
+#mdiIcon {
+  align-items: center;
+  text-align: center;
+  color: #fff; }
+  #mdiIcon i {
+    color: #04C2C9;
+    font-size: 45px; }
+  #mdiIcon h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #E31B6D; }
+  #mdiIcon .item {
+    background: #5e5e5e;
+    border-bottom: #E31B6D 3px solid; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
