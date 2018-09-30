@@ -65,6 +65,10 @@
     .projects {
         grid-template-columns: repeat(2, 1fr); 
     }
+
+    #techIcon {
+        grid-template-columns: repeat(3, 1fr) !important; 
+    }
 }
 
 //Smart phones
@@ -75,5 +79,9 @@
 
     .projects {
         grid-template-columns: 1fr; 
+    }
+
+    #techIcon {
+        grid-template-columns: repeat(2, 1fr) !important; 
     }
 }

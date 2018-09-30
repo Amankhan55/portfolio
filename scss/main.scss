@@ -204,6 +204,34 @@ main {
     }
 }
 
+//Tecnologis
+#techHeader{
+    margin-top: 2rem;
+    color: $secondary-color;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#techIcon {
+    align-items: center;
+    text-align: center;
+    color: set-text-color($primary-color);
+    grid-template-columns: repeat(6, 1fr) !important; 
+
+    i {
+        color: #04C2C9;
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 30px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    
+}
+
 #main-footer {
     text-align: center;
     padding: 1rem;
